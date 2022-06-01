@@ -18,20 +18,20 @@ header {
     width: 100%;
 }
 
-.contain__nav {
+.nav__menu {
     display: flex;
     flex-direction: row;
     gap: 50px;
 }
 
 
-.contain__nav ul {
+.nav__menu ul {
     display: flex;
     gap: 50px;
 }
 
 
-.contain__nav a {
+.nav__menu a {
     font-weight: 600;
 }
 
@@ -52,16 +52,36 @@ img {
 
     
     .mobile__menu {
-        
+
         display: block;
         cursor: pointer;
         color: var(--color-primary);
         font-size: 40px;
     }
 
-    .contain__nav ul{
-        display: none;
+    
+    
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: var(--color-bg);
+        z-index: 8888;
     }
+
+    .nav__list {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: var(--color-primary);
+        z-index: 99999;
+        display: flex;
+    }
+    
 
 }
 
