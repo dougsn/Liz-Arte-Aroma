@@ -1,0 +1,70 @@
+.container__hero {
+    
+    height: 100%;
+}
+
+.container__hero img {
+    width: 100%;
+    object-fit: cover;
+    object-position: calc(0px 70%);
+    height: 100vh;
+}
+
+.infos {
+    position: absolute;
+    bottom: 35%;
+    right: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+.infos h1 {
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.infos p {
+    color: var(--color-primary);
+    margin-top: 1.5rem;
+    font-size:30px;
+    
+}
+
+button {
+    margin-top: 15px;
+}
+
+.link__button {
+    color: var(--color-white);
+}
+
+
+
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+.swiper {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
+
+@media screen and (max-width: 600px) {
+    
+}
+

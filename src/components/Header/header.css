@@ -1,0 +1,76 @@
+header {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding:10px 50px;
+    background-color: transparent;
+    transition: all 0.5s ease 0s;
+
+    position: fixed;
+    width: 100%;
+}
+
+.contain__nav {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+.contain__nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+
+.contain__nav a {
+    font-weight: 600;
+}
+
+.mobile__menu {
+    display: none;
+}
+
+img {
+    width: 40px;
+}
+
+
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ================== */
+
+
+@media screen and (max-width: 1024px) {
+
+    
+    .mobile__menu {
+        
+        display: block;
+        cursor: pointer;
+        color: var(--color-primary);
+        font-size: 40px;
+    }
+
+    .contain__nav ul{
+        display: none;
+    }
+
+}
+
+
+
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================== */
+
+@media screen and (max-width: 600px) {
+    
+}
+
